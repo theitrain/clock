@@ -1,0 +1,35 @@
+/* Fonts */
+@font-face {
+    font-family: 'Digital';
+    src: url("assets/alarm_clock.ttf") format("truetype");
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #212120;
+}
+
+#clock{
+    padding: 200px 0 50px;
+    margin: auto;
+    text-align: center;
+}
+
+#clock h1{
+    color: #00F746;
+    font-family: 'Digital';
+    font-size: 200px;
+}
+
+#settings{
+    background-color: #FFCA06;
+    height: 200px;
+    padding: 20px 0;
+    margin: auto;
+    text-align: center;
+}

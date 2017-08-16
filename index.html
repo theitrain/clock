@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+	<head>
+	  <title>Alarm Clock</title>
+	  <link rel="stylesheet" href="clock.css">
+	  <script type="text/javascript" src="clock.js"></script>
+	</head>
+	<body>
+		<section id="clock">
+			<h1 id="wrapper">12:00:00</h1>
+		</section>
+
+		<section id="settings">
+			<h2>To create an alarm, enter a time and alarm name</h2>
+
+			<select id="alarm_hours" name="hours"></select>
+
+			<select id="alarm_minutes" name="minutes"></select>
+
+			<select name="ampm">
+				<option value="AM">AM</option>
+				<option value="PM">PM</option>
+			</select>
+
+			<input type="text" placeholder="Alarm Name" />
+
+			<button>Submit</button>
+
+		</section>
+	</body>
+</html>
