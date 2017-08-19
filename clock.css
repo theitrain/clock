@@ -4,14 +4,32 @@
     src: url("assets/alarm_clock.ttf") format("truetype");
 }
 
-
+/* Quick reset */
 *{
     padding: 0;
     margin: 0;
 }
 
+html{
+    height: 100%;
+    background-color: #FFCA06;
+}
+
 body{
     background-color: #212120;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-family: 'Digital';
+    font-size: 130px;
+    color: #00F746;
+}
+
+h2,
+h3{
+    color: #212120;
+    margin: 20px 0;
 }
 
 #clock{
@@ -20,16 +38,40 @@ body{
     text-align: center;
 }
 
-#clock h1{
-    color: #00F746;
-    font-family: 'Digital';
-    font-size: 200px;
-}
-
 #settings{
     background-color: #FFCA06;
-    height: 200px;
+    height: 100%;
     padding: 20px 0;
     margin: auto;
     text-align: center;
+    overflow: auto;
+}
+
+#settings select{ width: 100px; }
+
+/* Mobile */
+@media only screen and (max-width: 768px){
+
+    #clock{ padding-top: 100px; }
+
+    h1{ font-size: 90px; }
+
+    #alarm_name{
+        display: block;
+        width: 210px;
+        margin: 20px auto;
+        padding: 10px 20px;
+    }
+
+    #submit{
+        width: 250px;
+        padding: 20px;
+    }
+}
+
+/* Widescreen */
+@media only screen and (min-width: 1224px){
+
+    h1{ font-size: 200px; }
+    
 }

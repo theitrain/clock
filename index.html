@@ -13,18 +13,24 @@
 		<section id="settings">
 			<h2>To create an alarm, enter a time and alarm name</h2>
 
-			<select id="alarm_hours" name="hours"></select>
+			<select id="alarm_hours"></select>
 
-			<select id="alarm_minutes" name="minutes"></select>
+			<select id="alarm_minutes"></select>
 
-			<select name="ampm">
+			<select id="alarm_ampm">
 				<option value="AM">AM</option>
 				<option value="PM">PM</option>
 			</select>
 
-			<input type="text" placeholder="Alarm Name" />
+			<input id="alarm_name" type="text" placeholder="Alarm Name" />
 
-			<button>Submit</button>
+			<button id="submit">Submit</button>
+
+
+			<section>
+				<h3 id="alarm_message">You have not set any alarms yet</h3>
+					<ul id="alarm_list"></ul>
+			</section>
 
 		</section>
 	</body>
