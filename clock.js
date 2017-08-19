@@ -1,10 +1,9 @@
 /*
 Author: Ivan Rocha
-Date: 08/15/2017
+Date: 08/18/2017
 Notes:
     - Color palette adapted from color.adobe.com project "The Clock Strikes Nine" by user nicolagilroy ( https://color.adobe.com/The-Clock-Strikes-Nine-color-theme-1294130/ )
     - "Alarm Clock" font from dafont.com, created by David J. Patterson ( http://www.dafont.com/alarm-clock.font )
-    -
  */
 
 document.addEventListener("DOMContentLoaded", function() {
